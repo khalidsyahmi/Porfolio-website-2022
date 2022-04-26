@@ -95,7 +95,7 @@ main {
 #mobile-menu .nav-items a,
 #mobile-menu .nav-items button {
   font-size: 1.75rem;
-  color: var(--color-primary-100);
+  color: var(--color-lime-50);
 }
 
 @media (min-width: 48rem) {
