@@ -60,6 +60,18 @@ main {
   margin: 0 auto;
 }
 
+footer {
+  padding: 0 var(--space-6);
+  margin: 0;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 8rem;
+
+  background-color: var(--color-primary-500-bg);
+}
+
 ul,
 ol {
   list-style: none;
