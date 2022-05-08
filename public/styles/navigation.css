@@ -14,7 +14,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--color-primary-500);
+  border-bottom: 1px solid var(--color-lime-50);
   background-color: var(--color-gray-500);
 }
 

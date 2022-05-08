@@ -61,15 +61,16 @@ main {
 }
 
 footer {
-  padding: 0 var(--space-6);
+  padding-top: 0 var(--space-6);
   margin: 0;
   position: static;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 8rem;
+  height: 10rem;
 
   background-color: var(--color-primary-500-bg);
+  border-top: 2px solid var(--color-yam-40);
 }
 
 ul,
@@ -84,7 +85,7 @@ a {
   color: var(--color-lime-50);
 }
 
-.btn {
+.bttn {
   cursor: pointer;
   font: inherit;
   padding: var(--space-2) var(--space-6);
@@ -94,19 +95,19 @@ a {
   border-radius: var(--border-radius-small);
 }
 
-.btn:hover,
-.btn:active {
+.bttn:hover,
+.bttn:active {
   background-color: var(--color-primary-700);
   border-color: var(--color-primary-700);
 }
 
-.btn-alt {
+.bttn-alt {
   background-color: transparent;
   color: var(--color-primary-500);
 }
 
-.btn-alt:hover,
-.btn-alt:active {
+.bttn-alt:hover,
+.bttn-alt:active {
   background-color: var(--color-primary-500-bg);
 }
 
