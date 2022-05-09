@@ -1,0 +1,23 @@
+.footsies{
+    padding: 2rem 0.5rem;
+    align-items: center;
+    text-align: center;
+}   
+
+.socials{
+    text-align: right;
+    margin-right: 2.3rem;
+    padding-top: 1rem;
+}
+
+.footer-a {
+    color: var(--color-yam-40);
+  }
+  
+.allButFooter{
+min-height: calc(100vh - 40px);
+}
+
+.btn{
+    padding: 0.1rem 1rem;
+}
