@@ -52,12 +52,15 @@ body {
   background-color: var(--color-egyptian-300);
   color: var(--color-yam-40);
   margin: 0;
+
+  background-image: url("/images/CEO-LA+.jpeg");
+  background-size: cover;
 }
 
 main {
   width: 90%;
-  max-width: 50rem;
-  margin: 0 auto;
+/*   max-width: 50rem; */
+  margin: 0 auto 2rem;
 }
 
 footer {
