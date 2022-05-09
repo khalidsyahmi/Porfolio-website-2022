@@ -50,8 +50,9 @@
   padding: 1.5rem;
   background: linear-gradient(45deg, rgb(255, 153, 153), rgb(26, 196, 181));
 
-  max-width: 65rem;
-  margin: 0 auto 18rem auto; 
+  /*   max-width: 65rem; */
+  border-radius: 8px;
+  margin: 0 auto 18rem auto;
 }
 
 #highlights h2 {
