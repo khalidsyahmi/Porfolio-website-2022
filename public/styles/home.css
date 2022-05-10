@@ -50,7 +50,7 @@
   padding: 1.5rem;
   background: linear-gradient(45deg, rgb(255, 153, 153), rgb(26, 196, 181));
 
-  /*   max-width: 65rem; */
+  max-width: 80%s;
   border-radius: 8px;
   margin: 0 auto 18rem auto;
 }
@@ -73,8 +73,9 @@
 }
 
 .destination {
-  margin: 0 20px;
+  /*   margin: 0 20px; */
   text-transform: uppercase;
+  padding: 2rem;
 }
 
 .destination p {
@@ -85,11 +86,14 @@
 }
 
 .destination img {
+  width: 200px;
   height: 200px;
-  width: 100%;
+
   box-shadow: 2px 4px 8px black;
   border-radius: 9px;
   object-fit: cover;
+
+  /*   align-items: center; */
 }
 
 .destination strong {
