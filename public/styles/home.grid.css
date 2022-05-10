@@ -2,13 +2,19 @@
   /*   width: 1200px; */
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: minmax(1fr, 1fr);
+  grid-auto-flow: row;
   gap: 20px 20px;
 
-/*   grid-auto-columns: 50px; */
+  /*   grid-auto-columns: 50px; */
 }
 
 #highlights li:nth-of-type(3) {
   grid-column: 3; /* span across 2 columns */
-/*   text-align: center; */
+  /*   text-align: center; */
+}
+
+.imageset {
+  align-items: center;
+  text-align: center;
 }
