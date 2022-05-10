@@ -1,0 +1,17 @@
+#profile-image {
+  height: 27rem;
+  text-align: center;
+}
+
+.wrapper {
+  padding: 70px 150px 200px 150px;
+}
+
+.image--cover {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+
+  object-fit: cover;
+  object-position: center;
+}

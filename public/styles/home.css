@@ -1,5 +1,5 @@
 #hero {
-  height: 900px;
+  height: 20rem;
   /* bg */
 }
 
@@ -52,7 +52,7 @@
 
   max-width: 80%s;
   border-radius: 8px;
-  margin: 0 auto 18rem auto;
+  margin: 0 auto 5rem auto;
 }
 
 #highlights h2 {
